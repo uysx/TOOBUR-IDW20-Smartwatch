@@ -244,7 +244,16 @@ by `fgcolor` are not confirmed.
 
 ---
 
-## 7. Open questions
+## 7. Proof of watch face sideloading success
+The **Blue_Cyber** watch face script generated the .zip file, loaded the watch face in IDO's Demo App **IDO Demo Custom (https://github.com/idoosmart/IDOAndroidBleSDK-_UPDATE/tree/master)**, and was installed successfully.
+
+This proves local .iwf watch face installation is possible via both the IDO Demo App and VeryLoad.
+
+<img width="540" height="720" alt="20261116_230431_scaled" src="https://github.com/user-attachments/assets/db7d86ca-6bbf-42ff-a7a8-1af648467304" />
+
+---
+
+## 8. Open questions
 
 1. **`compress: "LZ4"`**: nothing in this file is compressed. Check whether the app
    compresses on transfer (BLE or Wi-Fi capture) or whether other faces use it.
